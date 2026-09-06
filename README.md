@@ -34,7 +34,7 @@ npx wrangler dev
 
 ## Production resources
 - Cloudflare Worker
-- R2 bucket `dtech-social-ai-media`
+- R2 bucket `optional-media-storage`
 - PostgreSQL database + Hyperdrive
 - Workers AI
 - Custom domain

@@ -12,7 +12,7 @@ Do not use the old `dtech-website build token`. It belongs to another project. T
 
 ## Required Cloudflare resources
 1. Workers AI binding `AI`.
-2. R2 bucket `dtech-social-ai-media`.
+2. R2 bucket `optional-media-storage`.
 3. Hyperdrive configuration bound as `HYPERDRIVE` and pointing to a PostgreSQL database.
 4. Custom domain, for example `social.dtech.cd`.
 

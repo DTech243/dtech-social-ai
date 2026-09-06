@@ -3,21 +3,20 @@
   "name": "dtech-social-ai",
   "main": "applications/api/src/index.ts",
   "compatibility_date": "2026-09-05",
-  "compatibility_flags": ["nodejs_compat"],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "assets": {
     "directory": "./applications/web",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*", "/oauth/*"]
+    "run_worker_first": [
+      "/api/*",
+      "/oauth/*"
+    ]
   },
   "ai": {
     "binding": "AI"
   },
-  "r2_buckets": [
-    {
-      "binding": "MEDIA",
-      "bucket_name": "dtech-social-ai-media"
-    }
-  ],
   "hyperdrive": [
     {
       "binding": "HYPERDRIVE",
